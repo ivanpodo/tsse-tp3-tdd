@@ -1,6 +1,6 @@
 # Testing de Software en Sistemas Embebidos - Trabajo Práctico Número 3
 
-Módulo para proyecto final desarrollado con pruebas unitarias y tdd.
+Módulo para proyecto final desarrollado con pruebas unitarias y tdd. El módulo implementa un controlador del tipo proporcional orientado a controlar un PWM que enciende y apaga una bomba peristáltica. La misma verterá una solución reguladora para bajar el pH de una solución con nutrientes para plantas de hidroponia.
 
 ## Objetivo
 
@@ -42,7 +42,7 @@ ceedling test:all
 Para activar banderas de seguimiento en las pruebas unitarias
 
 ```
-ceedling gcor:all
+ceedling gcov:all
 ```
 
 - Para generar reportes de pruebas unitarias (**gcov**), ejecuta:
